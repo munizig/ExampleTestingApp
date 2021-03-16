@@ -18,9 +18,11 @@ namespace TestIntegration.Tests
         [Test]
         public void FromCustomService_ShouldRetrieveValidRecordById()
         {
-            CustomRecord record = _customService.GetRecord(1);
+            int newRecordId = 3;
+            //RecordId must be higher than 2
+            CustomRecord record = _customService.GetRecord(newRecordId);
             Assert.NotNull(record);
-            Assert.AreEqual(1, record.Id);
+            Assert.AreEqual(newRecordId, record.Id);
             Assert.NotNull(record.Name);
         }
 
