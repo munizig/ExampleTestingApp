@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "ChampionX.App": {
+    "TestIntegration.App": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

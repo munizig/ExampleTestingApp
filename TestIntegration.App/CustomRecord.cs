@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ChampionX.App
+namespace TestIntegration.App
 {
     public class CustomRecord
     {

@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ChampionX.App
+namespace TestIntegration.App
 {
     public class Program
     {

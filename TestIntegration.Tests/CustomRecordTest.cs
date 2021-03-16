@@ -1,8 +1,8 @@
-﻿using ChampionX.App;
+﻿using TestIntegration.App;
 using NUnit.Framework;
 using System;
 
-namespace ChampionX.Tests
+namespace TestIntegration.Tests
 {
     [TestFixture]
     public class CustomRecordTest

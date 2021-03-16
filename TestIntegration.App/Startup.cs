@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ChampionX.App
+namespace TestIntegration.App
 {
     public class Startup
     {
@@ -30,7 +30,7 @@ namespace ChampionX.App
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "ChampionX.App", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "TestIntegration.App", Version = "v1" });
             });
         }
 
@@ -41,7 +41,7 @@ namespace ChampionX.App
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ChampionX.App v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TestIntegration.App v1"));
             }
 
             app.UseHttpsRedirection();
