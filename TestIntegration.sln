@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChampionX.App", "ChampionX.App\ChampionX.App.csproj", "{E0C80999-051A-4CFB-9B05-6C388BA80DCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestIntegration.App", "ChampionX.App\TestIntegration.App.csproj", "{E0C80999-051A-4CFB-9B05-6C388BA80DCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChampionX.Tests", "ChampionX.Tests\ChampionX.Tests.csproj", "{0D72EA54-4CC1-45CF-B9D9-3F0856F7FAB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestIntegration.Tests", "ChampionX.Tests\TestIntegration.Tests.csproj", "{0D72EA54-4CC1-45CF-B9D9-3F0856F7FAB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
